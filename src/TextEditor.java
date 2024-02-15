@@ -147,7 +147,7 @@ public class TextEditor implements ActionListener {
                 File file = new File(fileChooser.getSelectedFile().getAbsolutePath() + ".txt");
                 try {
                     FileWriter fileWriter = new FileWriter(file);
-                    //initialize biffered writer
+                    //initialize buffered writer
                     BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
                     //write contents of text area to file
                     textArea.write(bufferedWriter);
